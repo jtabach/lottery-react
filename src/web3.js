@@ -1,6 +1,6 @@
 import Web3 from 'web3';
 
-// uses the provider in the window
+// uses the provider in the window (from metamask)
 const provider = window.web3.currentProvider;
 const web3 = new Web3(provider);
 
